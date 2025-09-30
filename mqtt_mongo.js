@@ -35,8 +35,8 @@ const client = new MongoClient(uri, {
 });
 
 //määritellään tietokannan ja kokoelman nimi sekä dataobjekti sensoridatan käsittelyyn
-const myDB = client.db("sensordata2");
-const myColl = myDB.collection("sensordata2");
+const myDB = client.db("test");
+const myColl = myDB.collection("automaatio");
 var obj;
 
 //odotetaan dataa välityspalvelimelta ja viedään data tietokantaan
